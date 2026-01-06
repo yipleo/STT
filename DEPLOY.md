@@ -37,15 +37,15 @@ npm run build
     # 提交更改
     git commit -m "Initial commit"
     
-    # 关联远程仓库（请将 URL 替换为您刚才创建的 Gitee 仓库地址）
-    git remote add origin https://gitee.com/您的用户名/仓库名.git
+    # 关联远程仓库
+    git remote add origin https://gitee.com/zhipengye/stt.git
     
     # 推送到 master 分支
     git push -u origin master
     ```
 
 3.  **开启 Gitee Pages**：
-    *   进入 Gitee 仓库页面。
+    *   进入 Gitee 仓库页面：[https://gitee.com/zhipengye/stt](https://gitee.com/zhipengye/stt)
     *   点击顶部菜单栏的 **"服务"** -> **"Gitee Pages"**。
     *   **部署分支**：选择 `master`。
     *   **部署目录**：填写 `dist`（因为我们的构建产物在 dist 目录下，但 Gitee Pages 免费版通常不支持指定子目录部署，**请看下面的特别说明**）。
